@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black ;
+}
+h1{
+    text-align: center;
+    margin-top:20px;
+}
+.container{
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+.hangman{
+    height: 300px;
+    width:400px;
+    position: relative;
+}
+img{
+    position: absolute;
+}
+.img{
+    visibility: hidden;
+}
+button{
+    border: none;
+    padding: 20px 20px;
+}
+.buttons{
+    text-align: center;
+}
+.riddle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.ans{
+    margin-top: 40px;
+}
+.res{
+   text-align: center;
+   margin-top: 40px;
+   border-radius: 2px;
+}
+.none{
+    margin-top: 20px;
+    background-color: white;
+}
+.va{
+    background-color: white;
+}
